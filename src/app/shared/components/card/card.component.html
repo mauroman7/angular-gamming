@@ -1,0 +1,16 @@
+<figure class="c-card">
+    <div class="c-card__container-img">
+        <img class="c-card__img" src="{{item.image}}" alt="{{item.title}}">
+
+        <div class="c-card__info d-flex justify-content-between">
+            <div>
+                <span *ngIf="item.discount && item.discount.length !== 0" class="c-card__discount">{{item.discount}}</span>
+
+            </div>
+            <span class="m-2 b-text b-text--l b-text--white">{{item.price}}</span>
+        </div>
+    </div>
+    <figcaption class="mt-2 mb-3 d-flex justify-content-center b-text b-text--s">
+        {{item.title}}
+    </figcaption>
+</figure>

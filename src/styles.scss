@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles/settings/colors.settings";
+
+@import "styles/elements/body.elements";
+@import "styles/elements/img.elements";
+@import "styles/elements/figure.elements";
+
+@import "~bootstrap/scss/bootstrap-grid";
+
+@import "styles/blocks/text.blocks";

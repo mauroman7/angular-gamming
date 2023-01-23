@@ -1,0 +1,26 @@
+.b-text{
+    font-size: 16px;
+    color: var(--color-text);
+    font-family: arial, sans-serif; 
+    &--s{
+      font-size: 13px;  
+    }
+
+    &--m{
+        font-size: 17px;
+    }
+    &--l{
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    &--white{
+        color: var(--color-white);
+    }
+
+    &--grey-444{
+        color: var(--color-grey-444);
+    }
+
+
+}
